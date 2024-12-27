@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kadazan-Dusun</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 43px;
+      bottom: 0;
+      height: inherit;
+    }
+    </style>
+  </head>
+<body style="background-color:Azure;">
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Kadazan-Dusun</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">History</a>
+    <a href="page3.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Language</a>
+    <a href="page4.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Traditions</a>
+    <a href="page5.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Religion</a>
+    <a href="page6.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Home">Overview</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#2.1">2.1</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#2.2">2.2</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#2.3">2.3</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#2.4">2.4</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div id="Home">
+   <div class="w3-row w3-padding-0" >
+    <div class="w3-twothird w3-container">
+      <p> br <br> </p>
+      <h1 class="w3-text-brown">Language and Dialects</h1> 
+      <p>The Kadazan-Dusun people speak a language from the Austronesian family, commonly called the Kadazan-Dusun language. It comprises several dialects that reflect the geographic diversity of the community. These dialects, such as Bundu, Rungus, and Liwan, are mutually intelligible but carry unique linguistic nuances and vocabularies. The richness of the language showcases the community's adaptability across Sabah’s varied landscapes.</p>
+    </div>
+    <div class="w3-third w3-container"> <div id="2.1">
+      <p> BR <br> </p>
+      <img src="https://media.istockphoto.com/id/1169253736/photo/a-group-of-family-are-happy-and-enjoying-the-most-famous-stretch-of-smoked-wild-boar.jpg?s=612x612&w=0&k=20&c=SuADDzc5EyA7liF8pciRK2P2p6Li1A0t9XlXUTuSCiM=" alt="Kadazandusun Talking" style="width:300px;height:260px;">
+    </div> 
+  </div> 
+
+  
+   <div class="w3-row"> 
+    <div class="w3-twothird w3-container"> 
+      <h3 class="w3-text-teal">2.1</h3>
+      <p>Language is a vital aspect of Kadazan-Dusun identity, serving as a unifying force among the diverse subgroups. In recent decades, efforts have been made to standardize the language for educational and cultural purposes. Kadazan-Dusun is now officially recognized as a native language in Malaysia and is taught in schools across Sabah, ensuring its continued relevance for younger generations.</p>
+    </div>
+    <div class="w3-third w3-container"> <div id="2.2"> 
+      
+      <img src="https://www.theborneopost.com/newsimages/2023/09/email1695548941163WhatsApp-Image-2023-09-24-at-5.37.39-PM.jpeg" alt="Kadazandusun Language" style="width:300px;height:280px;">
+    </div>
+  </div>
+
+  
+  
+   <div class="w3-row w3-padding-0">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal">2.2</h3>
+      <p>The Kadazan-Dusun language is rich in expressions that reflect the community’s agricultural and spiritual traditions. Words and phrases often carry deep meanings, tied to their reverence for nature, family, and community. Songs, poetry, and oral storytelling play a central role in preserving the language and passing it on to future generations.</p>
+    </div>
+    <div class="w3-third w3-container"> <div id="2.3">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Penampang_Sabah_Kaamatan-Celebrations-2014-01.jpg" alt="Kadazandusun On Stage" style="width:300px;height:280px;">
+    </div>
+  </div>
+
+  
+   
+   <div class="w3-row w3-padding-0">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal">2.3</h3>
+      <p>Despite its importance, the Kadazan-Dusun language faces challenges in the modern era. The rise of English and Malay as dominant languages in Malaysia has led to a decline in native language usage among the younger population. However, revitalization initiatives, such as language festivals, community classes, and digital resources, are helping to reverse this trend.</p>
+    </div>
+    <div class="w3-third w3-container"> <div id="2.4"> 
+<img src="https://apicms.thestar.com.my/uploads/images/2023/07/14/thumbs/700/2178051.webp" alt="Kadazandusun School" style="width:300px;height:270px;">
+    </div>
+  </div>
+
+  
+   <div class="w3-row w3-padding-0">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal">2.4</h3>
+      <p>As a living language, Kadazan-Dusun continues to evolve while maintaining its traditional essence. Its preservation is vital for cultural identity and understanding the worldview and history of the Kadazan-Dusun people. Linguistic preservation efforts highlight the resilience of the community in safeguarding their heritage.</p>
+    </div>
+    <div class="w3-third w3-container">
+<img src="https://media.istockphoto.com/id/1153013946/photo/murut-borneo-indigenous-magunatip-bamboo-dancing-performance.jpg?s=612x612&w=0&k=20&c=2p2S9eQc5av5j7sKD3xD5QghtYjwVJaZBNkczVCf6qQ=" alt="Kadazandusun Dance" style="width:300px;height:280px;">
+    </div>
+  </div>
+
+ 
+  <footer id="myFooter"> 
+    <div class="w3-container w3-theme-l1">
+      <p>Kadazan-Dusun</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
