@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kadazan-Dusun</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 43px;
+      bottom: 0;
+      height: inherit;
+    }
+    </style>
+  </head>
+<body style="background-color:Azure;">
+
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Kadazan-Dusun</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">History</a>
+    <a href="page3.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Language</a>
+    <a href="page4.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Traditions</a>
+    <a href="page5.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Religion</a>
+    <a href="page6.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Home">Overview</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#4.1">4.1</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#4.2">4.2</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#4.3">4.3</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#4.4">4.4</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div id="home">
+   <div class="w3-row w3-padding-0">
+    <div class="w3-twothird w3-container">
+      <p> br <br> </p>
+      <h1 class="w3-text-brown">Religion and Beliefs</h1> 
+      <p>Traditionally, the Kadazan-Dusun practiced animism, believing in the presence of spirits in nature and ancestral guidance. Their worldview was deeply tied to their environment, with sacred rituals performed to honor spirits associated with the land, water, and skies. Central to their spiritual practices is the Bobohizan, a highly respected priestess or shaman who acts as an intermediary between the physical and spiritual worlds.</p>
+    </div>
+    <div class="w3-third w3-container"> <div id="4.1">
+      <p> br <br> </p>
+      <img src="https://sph.dailyexpress.com.my/archive/uploads/firstritual17.jpg" alt="Kadazandusun Ceremony" style="width:270px;height:270px;">
+    </div> 
+  </div> 
+
+  
+   <div class="w3-row"> 
+    <div class="w3-twothird w3-container"> 
+      <h3 class="w3-text-brown">4.1</h3> 
+      <p>One of the most significant beliefs revolves around Huminodun, the rice spirit. According to legend, Huminodun sacrificed herself to bring life to the Kadazan-Dusun people, and rice is seen as her embodiment. This belief underpins the Pesta Kaamatan, where rituals are performed to express gratitude for the harvest and to seek blessings for future prosperity. Such practices demonstrate the community's deep reverence for sustenance and life.</p>
+    </div>
+    <div class="w3-third w3-container"> <div id="4.2"> 
+      <img src="https://sabahtourism.com/assets/uploads/RS27769_No.20-A%C2%A9-Sabah-Tourism_Tsen-Lip-Kai.jpg" alt="Pesta Kaamatan" style="width:270px;height:200px;">
+    </div>
+  </div>
+
+   <div class="w3-row">                                  
+ <div class="w3-twothird w3-container"> 
+      <h3 class="w3-text-brown">4.2</h3> 
+      <p>The arrival of Christianity and Islam in Sabah during the colonial era and through trade brought significant changes to Kadazan-Dusun religious practices. Today, the majority of Kadazan-Dusun identify as Christians, particularly Roman Catholics, while a smaller number follow Islam. Despite these shifts, elements of traditional beliefs remain woven into their religious practices and rituals, reflecting a blending of old and new.</p>
+    </div>
+    <div class="w3-third w3-container"> <div id="4.3">
+      <img src="https://www.catholicadkk.org/wp-content/uploads/2016/05/kd-audio-bible.jpg" alt="Kadazandusun Christian" style="width:270px;height:200px;">
+    </div>
+  </div>
+
+      
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-brown">4.3</h3> 
+      <p>Modern religious practices coexist with traditional ceremonies in many Kadazan-Dusun communities. For instance, during weddings or harvest celebrations, it is not uncommon for both Christian prayers and traditional blessings to be performed. This syncretism highlights the adaptability of the Kadazan-Dusun in maintaining their heritage while embracing new beliefs.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://www.heraldmalaysia.com/uploads/news/2016/5/7561951821462265544.jpg" alt="Kadazandusun" style="width:270px;height:200px;"> <div id="4.4"> 
+    </div>
+  </div>
+ 
+   
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-brown">4.4</h3> 
+      <p>Efforts to preserve traditional spiritual practices are ongoing, particularly as younger generations become more urbanized and distanced from rural customs. The role of the Bobohizan, once central to the community, has diminished over time, but cultural revivals and educational programs aim to ensure that this vital aspect of Kadazan-Dusun heritage is not forgotten.</p>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://assets.nst.com.my/images/articles/kadazandusun_1660816621.jpg" alt="Kadazandusun" style="width:270px;height:210px;">
+    </div>
+  </div>
+
+  <footer id="myFooter"> 
+    <div class="w3-container w3-theme-l1">
+      <p>Kadazan-Dusun</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
