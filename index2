@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kadazan-Dusun</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+  <style>
+    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+    .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 43px;
+      bottom: 0;
+      height: inherit;
+    }
+    </style>
+    
+<body style="background-color:Azure;">
+
+<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Kadazan-Dusun</a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">History</a>
+    <a href="page3.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Language</a>
+    <a href="page4.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Traditions</a>
+    <a href="page5.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Religion</a>
+    <a href="page6.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+  </div>
+</div>
+
+
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Menu</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#Home">Overview</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#1.1">1.1</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#1.2">1.2</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#1.3">1.3</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#1.4">1.4</a>
+</nav>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible --> 
+<div class="w3-main" style="margin-left:250px"> 
+ 
+  <div id="Home"> 
+   <div class="w3-row w3-padding-0"> 
+    <div class="w3-twothird w3-container"> 
+      <p> br <br> </p>
+      <h1 class="w3-text-brown"> History and Origin</h1>  
+      <p>The Kadazan-Dusun people trace their ancestry to the Austronesian-speaking migrants who arrived in Borneo thousands of years ago. These settlers brought advanced knowledge of agriculture, navigation, and spirituality, which shaped the early communities in Sabah. Over time, they adapted to the island's diverse ecosystems, from fertile lowlands to rugged highlands, creating a rich cultural and historical legacy.</p> 
+    </div> 
+    <div class="w3-third w3-container"> <div id="1.1"> 
+      <p> br <br> </p>
+      <img src="https://cdn.britannica.com/01/244501-050-418AB3C0/Locator-map-Sabah.jpg" alt="Locator-map-Sabah" style="width:300px;height:300px;"> 
+    </div>  
+  </div> 
+<div class="w3-row">  
+    <div class="w3-twothird w3-container">  
+      <h3 class="w3-text-teal">1.1</h3> 
+      <p>In their early history, the Kadazan-Dusun were predominantly farmers, relying on rice cultivation, hunting, and fishing for sustenance. They developed intricate agricultural practices, such as terraced farming and irrigation systems,
+stems, allowing them to thrive in hilly and flat terrains. This deep connection to agriculture became a defining feature of their culture and gave rise to many of their traditional practices and rituals.</p> 
+    </div> 
+    <div class="w3-third w3-container"> <div id="1.2">  
+      <img src="https://blog.redbus.my/wp-content/uploads/2023/04/harvest-festivals-in-Malaysia-1920x1080.png" alt="Kasazan's Paddy Field" style="width:300px;height:300px;"> 
+    </div> 
+  </div> 
+ 
+   
+   
+   <div class="w3-row w3-padding-0"> 
+    <div class="w3-twothird w3-container"> 
+      <h3 class="w3-text-teal">1.2</h3> 
+      <p>The terms "Kadazan" and "Dusun" originally denoted people from different regions—Kadazan for those in the lowlands and Dusun for those in the highlands. Despite geographic distinctions, the two groups shared a common language, cultural practices, and beliefs. These shared traits eventually led to the unification of the two identities, particularly during the post-colonial era, when there was a push for collective ethnic recognition.</p> 
+    </div> 
+    <div class="w3-third w3-container"> <div id="1.3"> 
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIaeNO56GpEj7__w2-RA41J3Jw0_GY-Bq_TSSDlAZt_b_LAKBnyckpm4OZIEDLgU7X5IEcN__GGfhJ0tpce0ZnhdZzmuhVfef_UWIDZlGnR7vTN0WtwwO6HG0Y8ELz8vQopf2eeG1Njko/s1600/KgKuaiKandazon_Sabah_Monsopiad-Cultural-Village-24.jpg" alt="Picture of Kadazan Dusun" style="width:300px;height:300px;"> 
+    </div> 
+  </div> 
+ 
+   
+    
+   <div class="w3-row w3-padding-0"> 
+    <div class="w3-twothird w3-container"> 
+      <h3 class="w3-text-teal">1.3</h3> 
+      <p>During the colonial period, the Kadazan-Dusun faced significant changes due to external influences. British administration introduced formal education, Christianity, and economic changes that reshaped the community. While these influences brought modernization, they also posed challenges to preserving traditional practices. Despite this, the Kadazan-Dusun have remained resilient, adapting to these changes while maintaining their cultural identity.</p> 
+    </div> 
+    <div class="w3-third w3-container"> <div id="1.4">  
+<img src="https://www.freemalaysiatoday.com/_next/image/?url=https%3A%2F%2Fmedia.freemalaysiatoday.com%2Fwp-content%2Fuploads%2F2020%2F07%2Ftadika-2.jpg&w=1200&q=75" alt="Kadazandusun School" style="width:300px;height:270px;"> 
+    </div> 
+  </div> 
+ 
+   
+   <div class="w3-row w3-padding-0"> 
+    <div class="w3-twothird w3-container"> 
+      <h3 class="w3-text-teal">1.4</h3> 
+      <p>In the modern era, the Kadazan-Dusun community continues celebrating its rich history through cultural festivals, oral traditions, and rituals. Efforts to document their heritage and teach younger generations about their roots have helped preserve their historical identity. Their history is a testament to their ability to adapt while staying deeply connected to their origins.</p> 
+    </div> 
+    <div class="w3-third w3-container"> 
+<img src="https://img.freepik.com/premium-photo/portraits-kadazan-dusun-malaysian-young-girls-traditional-attire_698447-836.jpg?w=900" alt="Kadazandusun Teenager" style="width:300px;height:250px;"> 
+    </div> 
+  </div> 
+ <p> <br> </p>
+
+  <footer id="myFooter"> 
+    <div class="w3-container w3-theme-l1">
+      <p>Kadazan-Dusun</a></p>
+    </div>
+  </footer>
+ 
+<!-- END MAIN --> 
+<!/div> 
+
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+/ Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
